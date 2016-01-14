@@ -1,1 +1,1 @@
-* (http://www.tutorialspoint.com/cprogramming/c_structures.htm)
+* http://www.tutorialspoint.com/cprogramming/c_structures.htm
