@@ -1,17 +1,22 @@
 Задачи
 =====================
 
-задачи за скаларни типове (char, enum)
-
-*char
-
-### Задача 1: Цифри и букви
-Напишете програма, която извежда числата и буквите със ASCII кодовете им.
-
-
-
 
 *Масиви
+
+### Задача 1: 
+Напишете програма, която намира най-малкия елемент в масив.
+
+Вход:
+```
+   5
+   6 3 1 6 2
+```
+
+Изход:
+```
+    1
+```
 
 ### Задача 2: Сума
 Напишете програма, която извежда сумата на елементи в масив.
@@ -84,7 +89,6 @@
 ```
     Да
 ```  
-##Домашно
 
 
 ### Задача 6: Скаларно произведение
@@ -199,3 +203,104 @@ Hint: 6*1 + 3*2 + 1*3 + 6*1 = 21 ( Скаларно произведение)
     s 3
     v 1
 ``` 
+
+
+Bonus tasks
+
+### Task 1 - Palindrome, return of the bits
+
+Given a positive 64-bit integer, tell whether it's a palindrome in **base 2**.
+
+**Input**
+
+A single number `n` in the range [0; 2^64 - 1]
+
+**Output**
+
+`Yes` if `n` is a palindrome in base 2, `No` otherwise
+
+**Example**
+
+Input
+```
+‭7335‬
+```
+
+Output
+```
+Yes
+```
+
+Explanation: 7335 is 1110010100111 in binary. Since 1110010100111 is a palindrome, the program outputs `Yes`.
+
+### Task 2 - Palindrome, the numbers strike back
+
+This time instead of recognizing whether a number is palindrome,
+your task is to generate all palindromes in base 10 in the range [0, `n`].
+
+**Input**
+
+A single number `n` that defines the range [0, `n`]
+
+**Output**
+
+All palindromes in base 10 in the range [0, `n`].
+
+**Example**
+
+Input
+
+```
+120
+```
+
+Output
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+11
+22
+33
+44
+55
+66
+77
+88
+99
+101
+111
+```
+
+### Task 3 - Unique number
+
+You'll be given a list of numbers, all but one of which are repeated at least once.
+This means that exactly one number does not repeat. Your task is to find it.
+
+**Input**
+
+On the first line of the standard input, the number of numbers `n` will be entered.
+On the next line, exactly `n` numbers will be given such that all but on are repeated at least once.
+
+**Output**
+
+The one and only unique number.
+
+**Example**
+
+Input
+```
+11
+1 1 2 2 3 3 4 4 5 5 6
+```
+
+```
+Output
+6
